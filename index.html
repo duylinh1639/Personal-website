@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>James Chen | MEP Engineer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <div class="logo">JC<span>.</span>MEP</div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#hero" class="active" onclick="closeMenu()">Home</a></li>
+      <li><a href="#about" onclick="closeMenu()">About</a></li>
+      <li><a href="#education" onclick="closeMenu()">Education</a></li>
+      <li><a href="#skills" onclick="closeMenu()">Skills</a></li>
+      <li><a href="#projects" onclick="closeMenu()">Projects</a></li>
+      <li><a href="#certifications" onclick="closeMenu()">Certifications</a></li>
+      <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero" id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+  <div class="hero-content">
+    <div class="hero-badge">
+      <span class="dot"></span>
+      Available for Consulting Projects
+    </div>
+    <h1>Hi, I'm <span class="gradient-text">James Chen</span></h1>
+    <p>Senior MEP Engineer specializing in HVAC design, electrical systems, and plumbing engineering for commercial, healthcare, and industrial facilities.</p>
+    <div class="hero-buttons">
+      <a href="#projects" class="btn btn-primary">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+        View Projects
+      </a>
+      <a href="#contact" class="btn btn-secondary">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+        Get in Touch
+      </a>
+    </div>
+  </div>
+  <div class="scroll-indicator">
+    <span>Scroll</span>
+    <div class="line"></div>
+  </div>
+</section>
+
+<!-- About Section -->
+<section id="about">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="section-label">// About Me</span>
+      <h2 class="section-title">Who I Am</h2>
+    </div>
+    <div class="about-grid">
+      <div class="fade-in-left">
+        <div class="about-image-wrapper">
+          <div class="about-image">
+            <img src="" alt="James Chen - MEP Engineer" id="aboutPhoto">
+          </div>
+          <div class="about-image-decor"></div>
+        </div>
+        <div class="about-stats">
+          <div class="stat-card">
+            <div class="stat-number" data-target="12">0</div>
+            <div class="stat-label">Years Exp.</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number" data-target="85">0</div>
+            <div class="stat-label">Projects</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-number" data-target="6">0</div>
+            <div class="stat-label">Certifications</div>
+          </div>
+        </div>
+      </div>
+      <div class="about-text fade-in-right">
+        <h3>Designing the Systems That Power Modern Buildings</h3>
+        <p>With over 12 years of experience in MEP engineering, I specialize in the design and coordination of mechanical, electrical, and plumbing systems for complex building projects. My expertise spans from initial concept design through construction administration.</p>
+        <p>I am passionate about creating energy-efficient, sustainable building systems that reduce environmental impact while delivering superior comfort and performance. I hold a Professional Engineer (PE) license and am LEED Accredited Professional.</p>
+        <p>Throughout my career, I've led multidisciplinary teams on projects ranging from high-rise office towers and healthcare facilities to data centers and educational campuses. I believe in leveraging BIM technology and collaborative design processes to deliver projects on time and within budget.</p>
+        <div class="about-tags">
+          <span class="about-tag">HVAC Design</span>
+          <span class="about-tag">Electrical Systems</span>
+          <span class="about-tag">Plumbing Engineering</span>
+          <span class="about-tag">Fire Protection</span>
+          <span class="about-tag">Energy Modeling</span>
+          <span class="about-tag">BIM Coordination</span>
+          <span class="about-tag">Sustainable Design</span>
+          <span class="about-tag">Code Compliance</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Education Section -->
+<section id="education" style="background: rgba(30, 41, 59, 0.3);">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="section-label">// Education</span>
+      <h2 class="section-title">Academic Background</h2>
+      <p class="section-desc">A strong foundation in mechanical engineering and building systems design.</p>
+    </div>
+    <div class="timeline">
+      <div class="timeline-item fade-in">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card">
+          <div class="timeline-date">2010 — 2012</div>
+          <h4>Master of Science in Mechanical Engineering</h4>
+          <div class="institution">Stanford University</div>
+          <p>Concentration in Building Energy Systems and HVAC Design. Thesis: "Optimization of Variable Refrigerant Flow Systems in Large-Scale Commercial Buildings." GPA: 3.9/4.0. Research assistant in the Building Energy Efficiency Lab.</p>
+        </div>
+      </div>
+      <div class="timeline-item fade-in">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card">
+          <div class="timeline-date">2006 — 2010</div>
+          <h4>Bachelor of Science in Mechanical Engineering</h4>
+          <div class="institution">University of California, Berkeley</div>
+          <p>Graduated Magna Cum Laude. Dean's List for all semesters. Member of ASHRAE Student Chapter. Senior capstone project: Design of a complete MEP system for a 10-story mixed-use building.</p>
+        </div>
+      </div>
+      <div class="timeline-item fade-in">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card">
+          <div class="timeline-date">2018</div>
+          <h4>Executive Certificate in Sustainable Design</h4>
+          <div class="institution">MIT Professional Education</div>
+          <p>Advanced coursework in sustainable building technologies, passive design strategies, net-zero energy buildings, and life-cycle assessment of building systems.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="section-label">// Technical Skills</span>
+      <h2 class="section-title">Core Competencies</h2>
+      <p class="section-desc">Comprehensive expertise across all MEP disciplines with a focus on integrated design.</p>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-category fade-in">
+        <div class="skill-icon">❄️</div>
+        <h4> Mechanical / HVAC</h4>
+        <div class="skill-bars">
+          <div class="skill-item">
+            <label><span>HVAC System Design</span><span>95%</span></label>
+            <div class="skill-bar"><div class="skill-fill" data-width="95"></div></div>
+          </div>
+          <div class="skill-item">
+            <label><span>Load Calculation (HAP/Trace)</span><span>92%</span></label>
+            <div class="skill-bar"><div class="skill-fill" data-width="92"></div></div>
+          </div>
+          <div class="skill-item">
+            <label><span>Duct & Pipe Routing</span><span>90%</span></label>
+            <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+          </div>
+          <div class="skill-item">
+            <label><span>Energy Modeling (eQUEST)</span><span>85%</span></label>
+            <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+          </div>
+        </div>
+      </div>
+      <div class="skill-category fade-in">
+        <div class="skill-icon">⚡</div>
+        <h4>Electrical Systems</h4>
+        <div class="skill-bars">
+          <div class="skill-item">
+            <label><span>Power Distribution</span><span>90%</span></label>
+            <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+          </div>
+          <div class="skill-item">
+            <label><span>Lighting Design (AGi32)</span><span>88%</span></label>
+            <div class="skill-bar"><div class="skill-fill" data-width="88"></div></div>
+          </div>
+          <div class="skill-item">
+            <label><span>Fire Alarm Systems</span><span>85%</span></label>
+            <div class="skill-bar"><div class="skill-fill" data-width="85"></div></div>
+          </div>
+          <div class="skill-item">
+            <label><span>Low-Voltage/Telecom</span><span>80%</span></label>
+            <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+          </div>
+        </div>
+      </div>
+      <div class="skill-category fade-in">
+        <div class="skill-icon">💧</div>
+        <h4>Plumbing & Fire Protection</h4>
+        <div class="skill-bars">
+          <div class="skill-item">
+            <label><span>Plumbing System Design</span><span>92%</span></label>
+            <div class="skill-bar"><div class="skill-fill" data-width="92"></div></div>
+          </div>
+          <div class="skill-item">
+            <label><span>Sprinkler System Design</span><span>88%</span></label>
+            <div class="skill-bar"><div class="skill-fill" data-width="88"></div></div>
+          </div>
+          <div class="skill-item">
+            <label><span>Medical Gas Systems</span><span>82%</span></label>
+            <div class="skill-bar"><div class="skill-fill" data-width="82"></div></div>
+          </div>
+          <div class="skill-item">
+            <label><span>Stormwater Management</span><span>78%</span></label>
+            <div class="skill-bar"><div class="skill-fill" data-width="78"></div></div>
+          </div>
+        </div>
+      </div>
+      <div class="skill-category fade-in">
+        <div class="skill-icon">🖥️</div>
+        <h4>Software & Tools</h4>
+        <div class="skill-bars">
+          <div class="skill-item">
+            <label><span>Revit MEP / BIM 360</span><span>95%</span></label>
+            <div class="skill-bar"><div class="skill-fill" data-width="95"></div></div>
+          </div>
+          <div class="skill-item">
+            <label><span>AutoCAD</span><span>93%</span></label>
+            <div class="skill-bar"><div class="skill-fill" data-width="93"></div></div>
+          </div>
+          <div class="skill-item">
+            <label><span>Navisworks</span><span>88%</span></label>
+            <div class="skill-bar"><div class="skill-fill" data-width="88"></div></div>
+          </div>
+          <div class="skill-item">
+            <label><span>Bluebeam Revu</span><span>90%</span></label>
+            <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" style="background: rgba(30, 41, 59, 0.3);">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="section-label">// Project Experience</span>
+      <h2 class="section-title">Featured Projects</h2>
+      <p class="section-desc">A selection of impactful MEP engineering projects I've led throughout my career.</p>
+    </div>
+    <div class="projects-grid">
+      <div class="project-card fade-in">
+        <div class="project-image">
+          <img src="" alt="Meridian Tower" id="projectImg1">
+          <div class="project-overlay"></div>
+          <span class="project-type">Commercial</span>
+        </div>
+        <div class="project-content">
+          <h4>Meridian Tower — 42-Story Office Complex</h4>
+          <p>Led the MEP design for a 42-story Class A office tower featuring a double-skin façade, chilled beam HVAC system, and smart building controls. Achieved LEED Platinum certification.</p>
+          <div class="project-details">
+            <span class="project-detail">📍 San Francisco, CA</span>
+            <span class="project-detail">📐 1.2M sq ft</span>
+            <span class="project-detail">💰 $320M</span>
+          </div>
+          <div class="project-tech">
+            <span class="tech-tag">Revit MEP</span>
+            <span class="tech-tag">Chilled Beams</span>
+            <span class="tech-tag">VRF Systems</span>
+            <span class="tech-tag">LEED Platinum</span>
+          </div>
+        </div>
+      </div>
+      <div class="project-card fade-in">
+        <div class="project-image">
+          <img src="" alt="Regional Medical Center" id="projectImg2">
+          <div class="project-overlay"></div>
+          <span class="project-type">Healthcare</span>
+        </div>
+        <div class="project-content">
+          <h4>Bay Regional Medical Center Expansion</h4>
+          <p>Managed MEP engineering for a 250-bed hospital expansion including critical care units, operating rooms, and medical gas systems. Ensured 100% compliance with FGI and OSHPD standards.</p>
+          <div class="project-details">
+            <span class="project-detail">📍 San Jose, CA</span>
+            <span class="project-detail">📐 450K sq ft</span>
+            <span class="project-detail">💰 $180M</span>
+          </div>
+          <div class="project-tech">
+            <span class="tech-tag">Medical Gas</span>
+            <span class="tech-tag">Cleanrooms</span>
+            <span class="tech-tag">Redundancy</span>
+            <span class="tech-tag">OSHPD</span>
+          </div>
+        </div>
+      </div>
+      <div class="project-card fade-in">
+        <div class="project-image">
+          <img src="" alt="Data Center" id="projectImg3">
+          <div class="project-overlay"></div>
+          <span class="project-type">Data Center</span>
+        </div>
+        <div class="project-content">
+          <h4>Pacific Data Hub — Tier IV Facility</h4>
+          <p>Designed critical MEP infrastructure for a 15MW data center with N+1 redundancy, hot-aisle containment, indirect evaporative cooling, and integrated UPS/generator systems.</p>
+          <div class="project-details">
+            <span class="project-detail">📍 Portland, OR</span>
+            <span class="project-detail">📐 200K sq ft</span>
+            <span class="project-detail">💰 $250M</span>
+          </div>
+          <div class="project-tech">
+            <span class="tech-tag">Uptime Tier IV</span>
+            <span class="tech-tag">PUE 1.15</span>
+            <span class="tech-tag">Evaporative Cooling</span>
+            <span class="tech-tag">BIM</span>
+          </div>
+        </div>
+      </div>
+      <div class="project-card fade-in">
+        <div class="project-image">
+          <img src="" alt="University Campus" id="projectImg4">
+          <div class="project-overlay"></div>
+          <span class="project-type">Education</span>
+        </div>
+        <div class="project-content">
+          <h4>Westfield University STEM Complex</h4>
+          <p>Coordinated MEP systems for a 3-building STEM campus including research laboratories, lecture halls, and a central utility plant with cogeneration and thermal energy storage.</p>
+          <div class="project-details">
+            <span class="project-detail">📍 Davis, CA</span>
+            <span class="project-detail">📐 380K sq ft</span>
+            <span class="project-detail">💰 $150M</span>
+          </div>
+          <div class="project-tech">
+            <span class="tech-tag">Lab Exhaust</span>
+            <span class="tech-tag">Cogeneration</span>
+            <span class="tech-tag">TES</span>
+            <span class="tech-tag">LEED Gold</span>
+          </div>
+        </div>
+      </div>
+      <div class="project-card fade-in">
+        <div class="project-image">
+          <img src="" alt="Airport Terminal" id="projectImg5">
+          <div class="project-overlay"></div>
+          <span class="project-type">Aviation</span>
+        </div>
+        <div class="project-content">
+          <h4>International Airport Terminal B Renovation</h4>
+          <p>Directed MEP design for a major terminal renovation including baggage handling HVAC, jet bridge conditioning, high-volume air distribution, and passenger comfort systems.</p>
+          <div class="project-details">
+            <span class="project-detail">📍 Los Angeles, CA</span>
+            <span class="project-detail">📐 900K sq ft</span>
+            <span class="project-detail">💰 $420M</span>
+          </div>
+          <div class="project-tech">
+            <span class="tech-tag">Displacement Ventilation</span>
+            <span class="tech-tag">Phased Retrofit</span>
+            <span class="tech-tag">FAA Compliant</span>
+          </div>
+        </div>
+      </div>
+      <div class="project-card fade-in">
+        <div class="project-image">
+          <img src="" alt="Mixed-Use Development" id="projectImg6">
+          <div class="project-overlay"></div>
+          <span class="project-type">Mixed-Use</span>
+        </div>
+        <div class="project-content">
+          <h4>Harbor Walk Mixed-Use Development</h4>
+          <p>Provided full MEP engineering for a 3-tower development with residential, retail, and hotel spaces. Designed district energy plant serving all three towers from a single central plant.</p>
+          <div class="project-details">
+            <span class="project-detail">📍 San Diego, CA</span>
+            <span class="project-detail">📐 750K sq ft</span>
+            <span class="project-detail">💰 $280M</span>
+          </div>
+          <div class="project-tech">
+            <span class="tech-tag">District Energy</span>
+            <span class="tech-tag">Multi-Use</span>
+            <span class="tech-tag">Water Reuse</span>
+            <span class="tech-tag">LEED ND</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Certifications Section -->
+<section id="certifications">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="section-label">// Certifications</span>
+      <h2 class="section-title">Licenses & Credentials</h2>
+      <p class="section-desc">Professional certifications and licenses that validate my expertise.</p>
+    </div>
+    <div class="certs-grid">
+      <div class="cert-card fade-in">
+        <div class="cert-icon">🏛️</div>
+        <h4>Professional Engineer (PE)</h4>
+        <div class="cert-org">NCEES — Mechanical</div>
+        <div class="cert-year">Licensed since 2015</div>
+      </div>
+      <div class="cert-card fade-in">
+        <div class="cert-icon">🌿</div>
+        <h4>LEED AP BD+C</h4>
+        <div class="cert-org">U.S. Green Building Council</div>
+        <div class="cert-year">Accredited since 2016</div>
+      </div>
+      <div class="cert-card fade-in">
+        <div class="cert-icon">🔥</div>
+        <h4>Fire Protection Specialist</h4>
+        <div class="cert-org">SFPE</div>
+        <div class="cert-year">Certified since 2018</div>
+      </div>
+      <div class="cert-card fade-in">
+        <div class="cert-icon">📐</div>
+        <h4>Autodesk Revit Professional</h4>
+        <div class="cert-org">Autodesk</div>
+        <div class="cert-year">Certified since 2017</div>
+      </div>
+      <div class="cert-card fade-in">
+        <div class="cert-icon">⚙️</div>
+        <h4>Certified Energy Manager (CEM)</h4>
+        <div class="cert-org">Association of Energy Engineers</div>
+        <div class="cert-year">Certified since 2019</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" style="background: rgba(30, 41, 59, 0.3);">
+  <div class="container">
+    <div class="section-header fade-in">
+      <span class="section-label">// Contact</span>
+      <h2 class="section-title">Let's Work Together</h2>
+      <p class="section-desc">Have a project in mind? I'd love to hear from you.</p>
+    </div>
+    <div class="contact-wrapper">
+      <div class="contact-info fade-in-left">
+        <h3>Get in Touch</h3>
+        <p>I'm always open to discussing new projects, consulting opportunities, or collaborations. Feel free to reach out through any of the channels below.</p>
+        <div class="contact-links">
+          <a href="mailto:james.chen@mep-engineer.com" class="contact-link">
+            <div class="contact-link-icon">✉️</div>
+            <div class="contact-link-text">
+              <span>Email</span>
+              <strong>james.chen@mep-engineer.com</strong>
+            </div>
+          </a>
+          <a href="tel:+14155551234" class="contact-link">
+            <div class="contact-link-icon">📞</div>
+            <div class="contact-link-text">
+              <span>Phone</span>
+              <strong>+1 (415) 555-1234</strong>
+            </div>
+          </a>
+          <a href="#" class="contact-link">
+            <div class="contact-link-icon">📍</div>
+            <div class="contact-link-text">
+              <span>Location</span>
+              <strong>San Francisco, California</strong>
+            </div>
+          </a>
+          <a href="#" class="contact-link">
+            <div class="contact-link-icon">🔗</div>
+            <div class="contact-link-text">
+              <span>LinkedIn</span>
+              <strong>linkedin.com/in/jameschen-mep</strong>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="contact-form fade-in-right">
+        <form id="contactForm" onsubmit="handleSubmit(event)">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" placeholder="John Doe" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" placeholder="john@example.com" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" placeholder="Project Inquiry" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" placeholder="Tell me about your project..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+            Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-text">© 2026 James Chen, PE — MEP Engineer. All rights reserved.</div>
+    <div class="footer-socials">
+      <a href="#" class="footer-social" title="LinkedIn">in</a>
+      <a href="#" class="footer-social" title="Twitter">𝕏</a>
+      <a href="#" class="footer-social" title="GitHub">⌨</a>
+    </div>
+  </div>
+</footer>
+
+<!-- Back to Top -->
+<button class="back-to-top" id="backToTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+
+<script>
+// Generate images
+async function generateImages() {
+  const prompts = {
+    aboutPhoto: "Professional portrait photo of a male engineer in his early 30s, wearing a navy blue suit with a white shirt, standing in a modern engineering office with building blueprints visible in the background, professional lighting, photorealistic",
+    projectImg1: "Modern 42-story glass office tower skyscraper in a city skyline at sunset, reflecting golden light, architectural photography style, sleek contemporary design with green terraces",
+    projectImg2: "Modern hospital building exterior with glass facades and landscaped gardens, contemporary healthcare architecture, professional architectural photography, daylight",
+    projectImg3: "Large modern data center facility exterior with cooling systems visible, industrial architecture with clean lines, professional photography, blue-toned lighting",
+    projectImg4: "University STEM building complex with modern architecture, glass and steel facades, campus setting with green spaces, professional architectural photography",
+    projectImg5: "Modern airport terminal interior with high ceilings and glass walls, natural light, spacious concourse with modern design elements, architectural photography",
+    projectImg6: "Mixed-use development with residential towers and retail spaces, waterfront setting, modern architecture with balconies and green spaces, professional rendering"
+  };
+
+  try {
+    const results = await Promise.allSettled(
+      Object.entries(prompts).map(([id, prompt]) =>
+        image_gen(prompt).then(url => ({ id, url }))
+      )
+    );
+    results.forEach(result => {
+      if (result.status === 'fulfilled') {
+        const el = document.getElementById(result.value.id);
+        if (el) el.src = result.value.url;
+      }
+    });
+  } catch (e) {
+    console.log('Image generation failed, using fallbacks');
+  }
+}
+
+generateImages();
+
+// Mobile menu
+function toggleMenu() {
+  document.getElementById('navLinks').classList.toggle('open');
+  document.getElementById('hamburger').classList.toggle('active');
+}
+function closeMenu() {
+  document.getElementById('navLinks').classList.remove('open');
+  document.getElementById('hamburger').classList.remove('active');
+}
+
+// Scroll effects
+const navbar = document.getElementById('navbar');
+const backToTop = document.getElementById('backToTop');
+const navLinks = document.querySelectorAll('.nav-links a');
+const sections = document.querySelectorAll('section[id]');
+
+window.addEventListener('scroll', () => {
+  const scrollY = window.scrollY;
+
+  // Navbar
+  navbar.classList.toggle('scrolled', scrollY > 50);
+
+  // Back to top
+  backToTop.classList.toggle('show', scrollY > 500);
+
+  // Active nav link
+  let current = '';
+  sections.forEach(section => {
+    const top = section.offsetTop - 100;
+    if (scrollY >= top) current = section.getAttribute('id');
+  });
+  navLinks.forEach(link => {
+    link.classList.remove('active');
+    if (link.getAttribute('href') === '#' + current) link.classList.add('active');
+  });
+});
+
+// Intersection Observer for animations
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry, index) => {
+    if (entry.isIntersecting) {
+      setTimeout(() => {
+        entry.target.classList.add('visible');
+      }, index * 100);
+    }
+  });
+}, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
+document.querySelectorAll('.fade-in, .fade-in-left, .fade-in-right').forEach(el => observer.observe(el));
+
+// Skill bar animation
+const skillObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.querySelectorAll('.skill-fill').forEach(bar => {
+        const width = bar.getAttribute('data-width');
+        setTimeout(() => {
+          bar.style.width = width + '%';
+        }, 300);
+      });
+    }
+  });
+}, { threshold: 0.2 });
+
+document.querySelectorAll('.skill-category').forEach(el => skillObserver.observe(el));
+
+// Counter animation
+const counterObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      const counters = entry.target.querySelectorAll('.stat-number');
+      counters.forEach(counter => {
+        const target = parseInt(counter.getAttribute('data-target'));
+        let current = 0;
+        const increment = target / 60;
+        const timer = setInterval(() => {
+          current += increment;
+          if (current >= target) {
+            counter.textContent = target + '+';
+            clearInterval(timer);
+          } else {
+            counter.textContent = Math.floor(current);
+          }
+        }, 30);
+      });
+      counterObserver.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.5 });
+
+document.querySelectorAll('.about-stats').forEach(el => counterObserver.observe(el));
+
+// Contact form
+function handleSubmit(e) {
+  e.preventDefault();
+  const btn = e.target.querySelector('button[type="submit"]');
+  const originalText = btn.innerHTML;
+  btn.innerHTML = '✓ Message Sent!';
+  btn.style.background = 'linear-gradient(135deg, #059669, #10b981)';
+  setTimeout(() => {
+    btn.innerHTML = originalText;
+    btn.style.background = '';
+    e.target.reset();
+  }, 3000);
+}
+</script>
+</body>
+</html>
